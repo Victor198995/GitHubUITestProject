@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite GitHubUI" >
+    <test verbose = "2" preserve-order = "true" name="C:\Users\Viktor_Kutsyk\IdeaProjects\GitHubUITestingProject" >
+      <parameter name="db" value="value"></parameter>
+        <classes>
+           <class name="MainPageTest"></class>
+            <class name="MainPageButtonsValidation"></class>
+            <class name="SearchResultsPageTest"></class>
+            <class name="SignInPageLinksTest"></class>
+            <class name="SignInPageTest"></class>
+            <class name="SignUpPageTest"></class>
+         </classes>
+    </test>
+
+</suite>
